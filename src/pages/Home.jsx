@@ -109,6 +109,16 @@ const Home = () => {
 
   return (
     <div className="w-full h-full font-[Poppins] text-stone-800">
+      {/* Resposiveness Alert */}
+      <div className="text-center hidden sm:flex fixed inset-0 z-50 flex-col items-center justify-center bg-white">
+        <i className="ri-smartphone-line text-6xl mb-4 text-stone-600"></i>
+        <h1 className="text-2xl font-bold mb-2">Mobile Only Website</h1>
+        <p className="text-lg max-w-md">
+          This website is designed for mobile devices only. Please open it on
+          your smartphone.
+        </p>
+      </div>
+
       <Navbar />
 
       {/* Product */}
