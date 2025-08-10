@@ -119,6 +119,24 @@ const Home = () => {
         </p>
       </div>
 
+      {/* Offers */}
+      <div className="w-full p-4 px-0 overflow-hidden bg-stone-800 text-white">
+        <div className="whitespace-nowrap flex animate-scroll">
+          <span className="px-2">
+            Use code <b>DISCOUNT15</b> to get 15% off.
+          </span>
+          <span className="px-2">
+            Use code <b>DISCOUNT15</b> to get 15% off.
+          </span>
+          <span className="px-2">
+            Use code <b>DISCOUNT15</b> to get 15% off.
+          </span>
+          <span className="px-2">
+            Use code <b>DISCOUNT15</b> to get 15% off.
+          </span>
+        </div>
+      </div>
+
       <Navbar />
 
       {/* Product */}
